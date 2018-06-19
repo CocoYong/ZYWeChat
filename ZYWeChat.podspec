@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "yong" => "zhyo0911@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/zh-yong-xin/ZYWeChat.git", :tag => "#{s.version}" }
-  s.source_files  = "ZYWeChat/**/*.{h,m}"
+  s.source_files  = "WechatSDK/*.{h,m}"
   s.frameworks = "SystemConfiguration","Security","CoreTelephony","CFNetwork"
   s.requires_arc = true
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
